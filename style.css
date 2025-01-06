@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.rec p{
+    background-color: #4c4766;
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main{
+    background-color: #FFFF;
+}
+
+.main img{
+    margin-left: 280px;
+    margin-top: 10px;
+}
+
+.left ul{
+    float: left;
+    display: flex;
+    gap: 35px;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+.left li{
+    list-style: none;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+    font-family: calibri;
+}
+
+
+
+.right ul{
+    float: right;
+    display: flex;
+    gap: 35px;
+    margin-right: 90px;
+    margin-top: -35px;
+}
+
+.right li{
+    list-style: none;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+    font-family: calibri;
+}
+
+.rec1{
+    background-color: #e7e3e3;
+    height: 50px;
+}
+
+.rec1 ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 35%;
+    margin-top: 15px;
+}
+
+.rec1 li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.rec1 a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.picture img{
+    width: 100%;
+    height: 750px;
+}
+
+.picture h1{
+    position: absolute;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-left: 70px;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+.picture h5{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 70px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.picture button{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 100px;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    transform: scale(1.1);
+
+}
+
+.picture .btn1{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 320px;
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    transform: scale(1.1);
+
+}
